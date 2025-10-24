@@ -1,0 +1,6 @@
+def main():
+    for t in range(int(input())):
+        n, j, k = map(int, input().split())
+        a = list(map(int, input().split()))
+        print('YES' if k > 1 or a[j-1] >= max(a) else 'NO')
+main()

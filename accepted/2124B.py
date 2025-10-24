@@ -1,0 +1,5 @@
+for t in range(int(input())):
+    n = int(input())
+    a = list(map(int, input().split()))
+
+    print(min(a[0:2]) + a[0])
